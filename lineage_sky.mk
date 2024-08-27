@@ -23,7 +23,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
-BLISS_BUILDTYPE := OFFICIAL
+
 
 ## Device identifier
 PRODUCT_DEVICE := sky
