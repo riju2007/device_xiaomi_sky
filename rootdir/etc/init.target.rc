@@ -326,3 +326,9 @@ service panel-info-sh /system/vendor/bin/sh /vendor/etc/init.panel_info.sh
     class core
     user root
     oneshot
+
+service adsprpcd /vendor/bin/adsprpcd
+   class main
+   user media
+   group media
+   disabled
